@@ -25,7 +25,8 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/dogs" element={<DogList dogs={dogs} />} />
+          
+          <Route path="/" element={<DogList dogs={dogs} />} />
           <Route path="/achat/:index" element={<Achat dogs={dogs} />} />
           <Route path="/dogs/:index" element={<DogDetails dogs={dogs} />} />
           

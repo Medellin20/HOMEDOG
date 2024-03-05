@@ -1,7 +1,7 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
+
 import DogList from './components/DogList';
 import DogDetails from './components/DogDetails';
 

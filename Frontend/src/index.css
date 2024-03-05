@@ -5,7 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   width: 100%;
 }
+
+@media (min-width: 768px) {
+    body {
+      width: 80%; /* Change la largeur lorsque la largeur de l'écran dépasse 768px */
+    }
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
